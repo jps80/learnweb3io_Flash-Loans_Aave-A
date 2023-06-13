@@ -1,0 +1,29 @@
+{
+  "name": "learnweb3io_flash-loans_aave-a",
+  "version": "1.0.0",
+  "description": "in this project you can find how how to take a Flash Loan from Aave",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jps80/learnweb3io_Flash-Loans_Aave-A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jps80/learnweb3io_Flash-Loans_Aave-A/issues"
+  },
+  "homepage": "https://github.com/jps80/learnweb3io_Flash-Loans_Aave-A#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.1"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.17.2",
+    "@openzeppelin/contracts": "^4.9.1",
+    "dotenv": "^16.1.4"
+  }
+}
