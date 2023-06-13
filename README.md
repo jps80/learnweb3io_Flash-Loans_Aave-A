@@ -32,7 +32,7 @@ Only you need to include in hardhat.config.js:
 
 ```
 
--   **Impersonation**  that lets us send transactions on behalf of any address, even without their private key (you should use it with "Mainnet Forking" feature, not run in the real worl 😄)
+-   **Impersonation**  that lets us send transactions on behalf of any address, even without their private key (you should use it with "Mainnet Forking" feature, not run in the real worl 😄) [more info and simple example using Vitalik account :) ](https://medium.com/coinmonks/impersonating-accounts-with-hardhat-21212c94dcec)
 
 ## How do Flash Loans work?
 

@@ -19,7 +19,7 @@ describe("Deploy a Flash Loan", function () {
 
     const token = await ethers.getContractAt("IERC20", DAI);
     const BALANCE_AMOUNT_DAI = ethers.utils.parseEther("4");
-  /*  
+
     // Impersonate the DAI_WHALE account to be able to send transactions from that account
     await hre.network.provider.request({
       method: "hardhat_impersonateAccount",
@@ -34,6 +34,6 @@ describe("Deploy a Flash Loan", function () {
     await tx.wait();
     const remainingBalance = await token.balanceOf(_flashLoanExample.address); // Check the balance of DAI in the Flash Loan contract afterwards
     expect(remainingBalance.lt(BALANCE_AMOUNT_DAI)).to.be.true; // We must have less than 2000 DAI now, since the premium was paid from our contract's balance
-    */
+
   });
 });
